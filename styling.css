@@ -1,0 +1,189 @@
+body {
+  
+    font-family: 'Akshar';
+    margin: 0;
+    padding: 0;
+    background-image: url("images/brownbackground.jpeg");
+    background-size:cover;
+  }
+
+  container{
+    font-family: sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-image: url("images/brownbackground.jpeg");
+    background-size:cover;
+    background-position: center;
+  }
+
+  header {
+    background-color: #6c4035d2;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  h1 {
+    margin: 0;
+    text-align: center;
+  }
+
+  h2{
+    font-size: 50px;
+    font-weight: 600;
+  }
+
+  h3{
+    padding-left: 50px;
+    font-size: 50px;
+    font-weight: 600;
+  }
+  
+
+  nav {
+    background-color: #6c4035d2;
+    padding: 10px;
+    text-align: right;
+  }
+
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    
+  }
+
+  .navbar-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  nav ul li {
+    display: inline;
+    position: relative;
+  }
+  
+  nav ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+  }
+  nav ul li:hover::after{
+    width: 100%;
+  }
+
+  nav ul li a {
+    color: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  .row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+    margin: 100px;
+  }
+  .col{
+    flex-basis: 50%;
+    padding: 50px;
+  }
+  .center{
+    flex-basis: 50%;
+  }
+
+  .card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .image{
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    box-sizing: border-box;
+    background-size: cover;
+    background-image: url(images/headshot.jpg);
+    object-position: center;
+  }
+
+  .card1{
+    background-image: url("images/swift.jpeg");
+  }
+  .card2{
+    background-image: url("images/videogame.png");
+  }
+  .card3{
+    background-image: url("images/website.jpeg");
+  }
+  .card4{
+    background-image: url("images/azure.png");
+  }
+
+  section {
+    margin: 20px;
+  }
+
+  footer {
+    background-color: #6c4035d2;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .contact-input{ 
+    width:25%;
+    font-size: 20px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #744d04ca;
+  }
+
+  .contact-button {
+    background: #744d04ca;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 50px;
+  }
+
+  .contact-container {
+    display: grid;
+    grid-template-rows: auto;
+    gap: 20px; 
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .contact-label{
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  textarea{
+    height: 180px;
+    padding: 10px;
+  }
+
