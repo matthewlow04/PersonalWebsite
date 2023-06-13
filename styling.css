@@ -128,7 +128,7 @@ body {
     }
 }
 
-  #about {
+  #about{
     animation: slideIn 0.5s ease-out;
   }
   
@@ -242,10 +242,22 @@ body {
 
   /* project page */
 
+  @keyframes slideInSide {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
   .project-container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+
   }
 
   .project {
@@ -254,6 +266,7 @@ body {
     border-radius: 4px;
     overflow: hidden;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    animation: slideInSide 1s ease-out;
   }
 
   .project-content {
