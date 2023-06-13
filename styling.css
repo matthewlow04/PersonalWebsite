@@ -112,19 +112,6 @@ body {
     background-position: center;
     background-size: cover;
   }
-
-  .image{
-    width: 500px;
-    height: 500px;
-    border-radius: 20px;
-    padding: 10px;
-    cursor: pointer;
-    box-sizing: border-box;
-    background-size: cover;
-    background-image: url(images/headshot.jpg);
-    object-position: center;
-  }
-
   .card1{
     background-image: url("images/swift.jpeg");
   }
@@ -137,6 +124,33 @@ body {
   .card4{
     background-image: url("images/azure.png");
   }
+  .card5{
+    background-image: url("images/clippers.webp");
+  }
+  .card6{
+    background-image: url("images/azure.png");
+  }
+  .card7{
+    background-image: url("images/azure.png");
+  }
+  .card8{
+    background-image: url("images/azure.png");
+  }
+  
+
+  .image{
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    box-sizing: border-box;
+    background-size: cover;
+    background-image: url(images/headshot.jpg);
+    object-position: center;
+  } 
+
+  
 
   section {
     margin: 20px;
