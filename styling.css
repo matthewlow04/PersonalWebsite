@@ -38,7 +38,10 @@ body {
     font-size: 50px;
     font-weight: 600;
   }
-  
+  h5{
+    font-size: 30px;
+    font-style: italic;
+  }
 
   nav {
     background-color: #6c4035d2;
@@ -200,4 +203,41 @@ body {
     height: 180px;
     padding: 10px;
   }
+
+  .project-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .project {
+    margin-bottom: 40px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .project-content {
+    padding: 20px;
+  }
+
+  .project-title {
+    font-size: 24px;
+    margin: 0 0 10px;
+  }
+
+  .project-description {
+    margin-bottom: 20px;
+  }
+
+  .project-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #744d04ca;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+
 
